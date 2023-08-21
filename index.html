@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Roboto:wght@300&family=Source+Sans+Pro:ital,
+              wght@0,200;0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Curriculum</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <aside>
+      
+      <div class="avatar">
+        <img src="img/1.jpg" alt="" style="border-radius: 10px;"/>
+      </div>
+
+      <div class="contact">
+        <h3 class="margin-titlle">CONTACTAME EN</h3>
+       
+        <div class="flex-container margin-row">
+          <span class="material-icons margin-icon"> mail </span>
+          <p>ricardomendezcuellar@gmail.com
+          <a href="mailto:ricardomenezcuellar@gmail.com" style="color: white;"></a>Ricardo Mendez</a></p>
+        </div>
+
+        <div class="flex-container margin-row">
+          <span class="material-icons margin-icon"> computer </span>
+          <p><a href="www.linkedin.com/in/ricardo-mendez-cuellar-647756174/" style="color: white;">Linkedin</a></p>
+        </div>
+
+        <div class="flex-container margin-row">
+          <span class="material-icons margin-icon "> room </span>
+          <p>San Cristóbal, 28021 Madrid</p>
+        </div>
+
+        <div class="skills">
+            <h3 class="margin-titlle">SKILLS SUMMARY</h3>
+              <div class="flex-container margin-row">
+                <div class="flex-container margin-icon">
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+                </div>
+                <p>Administracíon de CMS como WordPress & Moodle</p>
+              </div>
+
+          <div class="flex-container margin-row">
+            <div class="flex-container margin-icon">
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+              </div>
+              <p>Asistencia informática multiplataforma (Windows, Ubuntu Linux y Apple MacOS.)</p>
+          </div>
+
+          <div class="flex-container margin-row">
+              <div class="flex-container margin-icon">
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+                </div>
+              <p>Reparaciones hardware de equipos infomaticos y dispositivos moviles.</p>
+          </div>
+
+          <div class="flex-container margin-row">
+              <div class="flex-container margin-icon">
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+              </div>
+              <p>Manejo Office Suit de Microsoft, entre otros.</p>
+          </div>
+
+          <div class="flex-container margin-row">
+              <div class="flex-container margin-icon">
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+              </div>
+              <p>Dominio de los principales sistemas de gestión (como SQL, MySQL y Oracle)</p>
+          </div>
+
+          <div class="flex-container margin-row">
+              <div class="flex-container margin-icon">
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+              </div>
+              <p>Conocimiento en maquitacion web, programación y marcado (HTML, CSS JavaScript, PHP, Java, JSP.).</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div>
+        <h3 class="margin-titlle">SOCIAL</h3>
+        <div class="flex-container social"">
+              <a href=" #"><img src="img/linkedin.png" alt=""></a>
+          <a href="#"><img src="img/logotipo-de-github.png" alt=""></a>
+          <a href="#"><img src="img/facebook.svg" alt=""></a>
+          <a href="#"><img src="img/instagram.png" alt=""></a>
+        </div>
+      </div>
+
+    </aside>
+
+    <main>
+      <div class="download">
+        <span class="material-icons" id="print">
+          print
+        </span>
+      </div>
+      <div>
+        <h1>RELLENA TU CV</h1>
+        <hr />
+      </div>
+      <section>
+
+        <fieldset>
+          <legend>
+            <h3>DATOS PERSONALES</h3>
+          </legend>
+          <p>Nombre:
+            <input type="text" name="nombre" required="" placeholder="Nombre Completo" style="margin-left: 36px;">
+          </p>
+          <p>Apellidos:
+            <input type="text" name="apellidos" size="40" placeholder="Escriba sus dos apellidos"
+              style="margin-left: 30px;">
+          </p>
+          <p>Contraseña:
+            <input type="password" name="password" minlength="6" style="margin-left: 15px;">
+          </p>
+
+          <p>DNI:
+            <input class="cl-validate-dni" type="text" name="dni" placeholder="Introduzca su DNI"
+              pattern="[0-9]{8}[A-Za-z]{1}" title="Debe poner 8 números y una letra" minlength="9" maxlength="9"
+              style="margin-left: 68px;">
+            <input class="cl-submit-dni" type="submit" value="Enviar">
+          </p>
+          <p>Sexo:
+            <input type="radio" name="hm" value="h" style="margin-left: 58px;"> Hombre
+            <input type="radio" name="hm" value="m" style="margin-left: 30px;"> Mujer
+          </p>
+          <p>Incluir mi foto
+            <input type="file" name="adjunto" accept=".pdf,.jpg,.png" multiple="" style="margin-left: 2px;">
+          </p>
+
+        </fieldset>
+      </section>
+
+      <br /><br />
+      <section>
+        <fieldset>
+          <legend>
+            <h3>FORMACION</h3></legend>
+            <p>Titulo
+              <input type="text">
+            </p>
+            <p>Nombre del curso
+              <input type="text">
+            </p>
+            <p>Fecha de inicio:
+              <input type="date" name="fecha-inicio">
+            </p>
+            <p>Fecha de fin:
+              <input type="date" name="fecha-fin">
+            </p>
+            <p>Actualmente:
+              <input type="checkbox" name="casilla" checked="">
+            </p>
+            <p>Centro:
+              <input type="text" name="centro" style="margin-left: 152px;">
+            </p>
+            <p style="width: 33%; float: left;">No quiero que la empresa vea estos estudios</p>
+          <p style="width: 58%;float: right;">
+            <input type="checkbox" name="casilla" checked="">
+          </p>
+         
+          
+
+        </fieldset>
+      </section>
+      <section>
+
+        <fieldset>
+          <legend>
+            <h3>EXPERIENCIA</h3>
+          </legend>
+          <p>Puesto:
+            <input type="text" name="nombre" required="" placeholder="Nombre Completo">
+          </p>
+          <p>Empresa:
+            <input type="text" name="apellidos" size="40" placeholder="Escriba sus dos apellidos">
+          </p>
+          <p>Descripcion del puesto:
+            <input type="password" name="password" minlength="6">
+          </p>
+
+          <p>Fecha de inicio:
+            <input type="date" name="fecha-inicio">
+
+          </p>
+          <p>Fecha de fin:
+            <input type="date" name="fecha-fin">
+          </p>
+          
+          <p>Salario anual percibido:
+            <input type="password" name="password" minlength="6" style="margin-left: 44px;">
+          </p>
+
+        </fieldset>
+
+      </section>
+
+      <br /><br />
+
+      <section>
+
+        <fieldset>
+          <legend>
+            <h3>IDIOMAS</h3>
+          </legend>
+
+          <div class="bloque">Elige idioma:
+              <select name="idiomas">
+                <option>INGLES</option>
+                </select>
+              </div>
+
+            <div class="bloque">Hablado<select name="idiomas">
+              <option>ALTO</option>
+            </select></div>
+
+            <div class="bloque">Escrito<select name="idiomas">
+              <option>MEDIO</option>
+            </select></div>
+            
+            <div class="bloque">Leido<select name="idiomas">
+              <option>BAJO</option>
+             
+            </select></div>
+
+        </fieldset>
+
+      </section>
+
+      <section>
+        <br/><br/>
+        <a class="fcc-btn" href="paginas/cv.html">Enviar</a>
+        </section>
+
+    </main>
+
+  </div>
+  <script>
+    let print = document.querySelector('#print');
+    print.onclick = () => {
+      window.print();
+    }
+  </script>
+</body>
+
+</html>
